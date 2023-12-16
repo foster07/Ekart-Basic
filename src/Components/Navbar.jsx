@@ -8,7 +8,7 @@ export default function Navbar() {
   const cartData = useSelector((state) => state.myfirstSlice.cartDataSet);
 
   return (
-    <div className=" flex justify-around bg-slate-100 p-4 text-2xl font-bold items-center mb-5" >
+    <div className=" flex justify-around bg-slate-200 p-4 text-2xl font-bold items-center mb-5" >
       <NavLink to={"/"}>
         <p>Home</p>
       </NavLink>
